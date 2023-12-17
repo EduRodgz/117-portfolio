@@ -1,15 +1,15 @@
 /*Variables*/
 
 :root {
-    --primary-color: #AF9FFF;
-    --primary-colo-100: #EAE5FF;
-    --primry-color-300: #7F66FF;
+    --primary-color: #e75e5e;
+    --primary-color-100: #e67e7e;
+    --primry-color-300: #d82323;
 
-    --secondary-color: #025834;
-    --secondary-color-600: #04C876;
-    --secondary-color-900:  #01321E;
+    --secondary-color: #13093d;
+    --secondary-color-600: #0f0686;
+    --secondary-color-900:  #5482e4;
 
-    --neutral-color: #e0e0e0;
+    --neutral-color: #ffffff;
 
     --background-color: #1B1B1B;
     

@@ -55,10 +55,10 @@
     {% block content %}
     {% endblock content %}
     <footer>
-        <a href="{% url 'about'%}">
-            <h2>Eduardo Rodriguez Jr</h2>
-        </a>
-            <nav class="nav-footer center">
+        <nav class="nav-footer center">
+                <a href="{% url 'about'%}">
+                    <h2>Eduardo Rodriguez Jr</h2>
+                </a>
                 <a href="{% url 'about' %}">About Me</a>
                 <a href="{% url 'projects_list' %}">Projects</a>
                 <a href="{% url 'experience_list' %}">Experience</a>
