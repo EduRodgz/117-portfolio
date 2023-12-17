@@ -1,0 +1,70 @@
+{% extends 'base.html' %}
+
+{% block title %}About Me{% endblock %}
+{% load static %}
+{% block content %}
+
+<section class="about-section">
+
+    <div class="img-container center">
+        <img id="about-img" src="{% static './img/logo.png'%}" alt="">
+    </div>
+    
+    <div class="description-container center">
+
+        <div class="center " style="display: flex; flex-direction: column;">
+            <h1>My Role as a Lockheed Martin weapons Developer</h1>
+            <h2>Eduardo Rodriguez Jr</h2>
+        </div>
+
+        <p>
+            As a young lad born in the late 1900's i was constantly surrounded by new and evolving technologies that at the time being i had no idea were revolutionary. Phones that didnt weigh a metric ton, computers you could pick up and take with you, and who can forget the development of the World Wide Web! Naturally being raised with all this technology made me want to one day be able to create technology related things in the distant future. Fast forward 18 years and now im actually here in the process of creating "life" with my very own hands as an aspiring software developer
+            <br><br>
+            In this portfolio i will showcase just a small glimpse of my potential and raw talent that still requires work to mold into perfection. My overall desire is to sell my morals and ethics to Lockheed Martin for a 250k a year salary and free healthcare. Please be gentle im a "new" developer as you can see but i promise i can make a mean missile guiding system software program that can self destruct if ever caught in enemy hands.  
+        </p>
+
+        <div class="skills-list center">
+
+            <h2>Skill Set</h2>
+
+            <div class="skills center">
+
+            <label>
+                JavaScript
+            </label>
+            <label>
+                HTML
+            </label>
+            <label>
+                CSS
+            </label>
+            <label>
+                REACT
+            </label>
+            <label>
+                DJANGO
+            </label>
+            <label>
+                ui/ux
+            </label>
+            <label>
+                Mongo DB
+            </label>
+            <label>
+                Python
+            </label>
+            <label>
+                JQuery
+            </label>
+            <label>
+                Flask
+            </label>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+{% endblock content %}
